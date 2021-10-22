@@ -912,10 +912,10 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *き⃟🕊️ ${prefix}leave*
 *き⃟🕊️ ${prefix}kick* _reply_
 *き⃟🕊️ ${prefix}add* _628xxx_
-*き⃟🕊️ ${prefix}setnamegc*
-*き⃟🕊️ ${prefix}setppgc*
+*き⃟🕊️ ${prefix}setgrupname*
+*き⃟🕊️ ${prefix}setppgrup*
 *き⃟🕊️ ${prefix}getpp*
-*き⃟🕊️ ${prefix}setdeskgc*
+*き⃟🕊️ ${prefix}setdesc*
 *き⃟🕊️ ${prefix}sider* _reply chat bot_
 *き⃟🕊️ ${prefix}hidetag* _teks/reply teks_
 *き⃟🕊️ ${prefix}linkgc*

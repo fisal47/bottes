@@ -852,7 +852,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
    ━━━━━ 𝗔𝗟𝗟 𝗠𝗘𝗡𝗨 ━━━━━
    
-   𝖮𝖶𝖭𝖤𝖱 𝖬𝖤𝖭𝖴 
+𝖮𝖶𝖭𝖤𝖱 𝖬𝖤𝖭𝖴 
 *き⃟🕊️ ${prefix}bc* _teks_
 *き⃟🕊️ ${prefix}tobc* _audio_
 *き⃟🕊️ ${prefix}term*

@@ -958,10 +958,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 𝖲𝖳𝖨𝖪𝖤𝖱 𝖬𝖤𝖭𝖴 
 *き⃟🕊️ ${prefix}attp* _teks_
 *き⃟🕊️ ${prefix}ttp* _teks_
-*き⃟🕊️ ${prefix}doge*
-*き⃟🕊️ ${prefix}semoji* _emoji_
 *き⃟🕊️ ${prefix}sticker* _reply foto/video_
-*き⃟🕊️ ${prefix}smeme* _teks|teks_
 *き⃟🕊️ ${prefix}swm* _pack|author_
 *き⃟🕊️ ${prefix}take* _pack|author_
 
@@ -2366,20 +2363,20 @@ case 'nuliskiri':
     case 'nuliskanan':
     if (!q) return reply('Textnya mana kak?')
     reply(mess.wait)
-    mun = await getBuffer(`https://hardianto.xyz/api/nuliskanan?text=${q}&apikey=hardianto`)
-    dha.sendMessage(from, mun, image, {quoted: mek, caption: 'Awas ketahuan kak :v'})
+    loli = await getBuffer(`https://hardianto.xyz/api/nuliskanan?text=${q}&apikey=hardianto`)
+    dha.sendMessage(from, loli, image, {quoted: mek, caption: 'Awas ketahuan kak :v'})
     break
     case 'foliokiri':
     if (!q) return reply('Textnya mana kak?')
     reply(mess.wait)
-    min = await getBuffer(`https://hardianto.xyz/api/foliokiri?text=${q}&apikey=hardianto`)
-    hexa.sendMessage(from, min, image, {quoted: mek, caption: 'Awas ketahuan kak :v'})
+    loli = await getBuffer(`https://hardianto.xyz/api/foliokiri?text=${q}&apikey=hardianto`)
+    hexa.sendMessage(from, loli, image, {quoted: mek, caption: 'Awas ketahuan kak :v'})
     break
     case 'foliokanan':
     if (!q) return reply('Textnya mana kak?')
     reply(mess.wait)
-    mon = await getBuffer(`https://hardianto.xyz/api/foliokanan?text=${q}&apikey=hardianto`)
-    dha.sendMessage(from, mon, image, {quoted: mek, caption: 'Awas ketahuan kak :v'})
+    loli = await getBuffer(`https://hardianto.xyz/api/foliokanan?text=${q}&apikey=hardianto`)
+    dha.sendMessage(from, loli, image, {quoted: mek, caption: 'Awas ketahuan kak :v'})
     break
        case 'storyanime':
               reply(mess.wait)
@@ -2702,7 +2699,7 @@ break
 case 'meme':
 reply(mess.wait)
 loli = await fetchJson(`https://hardianto.xyz/api/random/meme?apikey=hardianto`)
-dha.sendMessage(from, await getBuffer(tod.result.url), image, {quoted: mek})
+dha.sendMessage(from, await getBuffer(loli.result.url), image, {quoted: mek})
 break
 case 'quotesbucin':
 reply(mess.wait)

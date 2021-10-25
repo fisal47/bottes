@@ -38,11 +38,11 @@ module.exports = welcome = async (dha, anu) => {
                 let v = dha.contacts[num] || { notify: num.replace(/@.+/, '') }
                 anu_user = v.vname || v.notify || num.split('@')[0]
                 time_wel = moment.tz('Asia/Jakarta').format("HH:mm")
-                teks = `Halo New Mem\n${anu_user} \nINTRO DULU BIAR KENAL\nNama : \nUmur :\nGender : \nAsal :\n\nJangan Lupa Baca Deskripsi Grup`
+                teks = `Hi New Mem Jangan Lupa Intro!`
 	            buff = await getBuffer(`http://hadi-api.herokuapp.com/api/card/welcome?nama=${anu_user}&descriminator=${time_wel}&memcount=${memeg}&gcname=${encodeURI(mdata.subject)}&pp=${pp_user}&bg=https://i.postimg.cc/rFkw8MpX/IMG-20210807-151325.jpg`)
-                buttons = [{buttonId: `#infogrup`,buttonText:{displayText: 'WELCOME'},type:1}]
+                buttons = [{buttonId: `#infogrup1`,buttonText:{displayText: 'WELCOME'},type:1}]
                 imageMsg = (await dha.prepareMessageMedia((buff), 'imageMessage', {thumbnail: buff})).imageMessage
-                buttonsMessage = { contentText: `${teks}`, footerText: 'SEMOGA BETAH', imageMessage: imageMsg, buttons: buttons, headerType: 4 }
+                buttonsMessage = { contentText: `${teks}`, footerText: 'Welcome Message', imageMessage: imageMsg, buttons: buttons, headerType: 4 }
                 prep = await dha.prepareMessageFromContent(mdata.id,{buttonsMessage},{})
                 dha.relayWAMessage(prep)
 }
@@ -54,11 +54,11 @@ module.exports = welcome = async (dha, anu) => {
                 anu_user = w.vname || w.notify || num.split('@')[0]
                 time_wel = moment.tz('Asia/Jakarta').format("HH:mm")
                 memeg = mdata.participants.length
-                out = `Selamat Tinggal\n${anu_user}\nSemoga Tenang Di Alam Sana`
+                out = `Yang Baru Keluar Nitip Seblak 🗿`
                 buff = await getBuffer(`http://hadi-api.herokuapp.com/api/card/goodbye?nama=${anu_user}&descriminator=${time_wel}&memcount=${memeg}&gcname=${encodeURI(mdata.subject)}&pp=${pp_user}&bg=https://i.postimg.cc/rFkw8MpX/IMG-20210807-151325.jpg`)
                 buttons = [{buttonId: `#alquran 1`,buttonText:{displayText: 'GOODBYE'},type:1}]
                 imageMsg = (await dha.prepareMessageMedia((buff), 'imageMessage', {thumbnail: buff})).imageMessage
-                buttonsMessage = { contentText: `${out}`, footerText: 'JANGAN BALIK LAGI', imageMessage: imageMsg, buttons: buttons, headerType: 4 }
+                buttonsMessage = { contentText: `${out}`, footerText: 'Leave Message', imageMessage: imageMsg, buttons: buttons, headerType: 4 }
                 prep = await dha.prepareMessageFromContent(mdata.id,{buttonsMessage},{})
                 dha.relayWAMessage(prep)
             }

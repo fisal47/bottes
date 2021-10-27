@@ -40,7 +40,7 @@ module.exports = welcome = async (dha, anu) => {
                 time_wel = moment.tz('Asia/Jakarta').format("HH:mm")
                 teks = `Hi New Mem Jangan Lupa Intro!`
 	            buff = await getBuffer(`http://hadi-api.herokuapp.com/api/card/welcome?nama=${anu_user}&descriminator=${time_wel}&memcount=${memeg}&gcname=${encodeURI(mdata.subject)}&pp=${pp_user}&bg=https://i.postimg.cc/rFkw8MpX/IMG-20210807-151325.jpg`)
-                buttons = [{buttonId: `#infogrup1`,buttonText:{displayText: 'WELCOME'},type:1}]
+                buttons = [{buttonId: `#infogrup1`,buttonText:{displayText: 'Welcome 👋'},type:1}]
                 imageMsg = (await dha.prepareMessageMedia((buff), 'imageMessage', {thumbnail: buff})).imageMessage
                 buttonsMessage = { contentText: `${teks}`, footerText: 'Welcome Message', imageMessage: imageMsg, buttons: buttons, headerType: 4 }
                 prep = await dha.prepareMessageFromContent(mdata.id,{buttonsMessage},{})
@@ -54,9 +54,9 @@ module.exports = welcome = async (dha, anu) => {
                 anu_user = w.vname || w.notify || num.split('@')[0]
                 time_wel = moment.tz('Asia/Jakarta').format("HH:mm")
                 memeg = mdata.participants.length
-                out = `Yang Baru Keluar Nitip Seblak 🗿`
+                out = `Yang Baru Keluar Nitip Seblak:v`
                 buff = await getBuffer(`http://hadi-api.herokuapp.com/api/card/goodbye?nama=${anu_user}&descriminator=${time_wel}&memcount=${memeg}&gcname=${encodeURI(mdata.subject)}&pp=${pp_user}&bg=https://i.postimg.cc/rFkw8MpX/IMG-20210807-151325.jpg`)
-                buttons = [{buttonId: `#alquran 1`,buttonText:{displayText: 'GOODBYE'},type:1}]
+                buttons = [{buttonId: `#alquran 1`,buttonText:{displayText: 'Bye 👋'},type:1}]
                 imageMsg = (await dha.prepareMessageMedia((buff), 'imageMessage', {thumbnail: buff})).imageMessage
                 buttonsMessage = { contentText: `${out}`, footerText: 'Leave Message', imageMessage: imageMsg, buttons: buttons, headerType: 4 }
                 prep = await dha.prepareMessageFromContent(mdata.id,{buttonsMessage},{})

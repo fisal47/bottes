@@ -840,15 +840,15 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
         case 'help':
         menu =`
 𝗜𝗡𝗙𝗢 𝗣𝗘𝗡𝗚𝗚𝗨𝗡𝗔 
-*࿊⃟🔮NAMA : ${pushname}*
-*࿊⃟🔖TAG :* @${sender.split('@')[0]}
-*࿊⃟📄STATUS : ${isOwner ? 'OWNER' : isPremium ? 'Premium' : 'Gratisan'}*
-*࿊⃟📌LIMIT : ${isPremium ? 'Unlimited' : `${gcount}`}*
+*🔮NAMA : ${pushname}*
+*🔖TAG :* @${sender.split('@')[0]}
+*📄STATUS : ${isOwner ? 'OWNER' : isPremium ? 'Premium' : 'Gratisan'}*
+*📌LIMIT : ${isPremium ? 'Unlimited' : `${gcount}`}*
 
 𝗜𝗡𝗙𝗢 𝗕𝗢𝗧
-*࿊⃟📝AKTIF : ${runtime(process.uptime())}*
-*࿊⃟🏮BATERAI : ${baterai}%*
-*࿊⃟🎉PREIFIX : 『${prefix}』*
+*📝AKTIF : ${runtime(process.uptime())}*
+*🏮BATERAI : ${baterai}%*
+*🎉PREIFIX : 『${prefix}』*
 
    ━━━━━ 𝗔𝗟𝗟 𝗠𝗘𝗡𝗨 ━━━━━
    

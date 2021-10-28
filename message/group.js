@@ -39,7 +39,7 @@ module.exports = welcome = async (dha, anu) => {
                 anu_user = v.vname || v.notify || num.split('@')[0]
                 time_wel = moment.tz('Asia/Jakarta').format("HH:mm")
                 teks = `Hi New Mem Jangan Lupa Intro!`
-	            buff = await getBuffer(`http://hadi-api.herokuapp.com/api/card/welcome?nama=${anu_user}&descriminator=${time_wel}&memcount=${memeg}&gcname=${encodeURI(mdata.subject)}&pp=${pp_user}&bg=https://i.postimg.cc/rFkw8MpX/IMG-20210807-151325.jpg`)
+	            buff = await getBuffer(`https://hardianto.xyz/api/welcome3?profile=${pp_user}&name=${anu_user}&bg=https://i.ibb.co/1s8T3sY/48f7ce63c7aa.jpg&namegb=${encodeURI(mdata.subject)}&member=${memeg}`)
                 buttons = [{buttonId: `#infogrup1`,buttonText:{displayText: 'Welcome 👋'},type:1}]
                 imageMsg = (await dha.prepareMessageMedia((buff), 'imageMessage', {thumbnail: buff})).imageMessage
                 buttonsMessage = { contentText: `${teks}`, footerText: 'Welcome Message', imageMessage: imageMsg, buttons: buttons, headerType: 4 }
@@ -55,7 +55,7 @@ module.exports = welcome = async (dha, anu) => {
                 time_wel = moment.tz('Asia/Jakarta').format("HH:mm")
                 memeg = mdata.participants.length
                 out = `Yang Baru Keluar Nitip Seblak:v`
-                buff = await getBuffer(`http://hadi-api.herokuapp.com/api/card/goodbye?nama=${anu_user}&descriminator=${time_wel}&memcount=${memeg}&gcname=${encodeURI(mdata.subject)}&pp=${pp_user}&bg=https://i.postimg.cc/rFkw8MpX/IMG-20210807-151325.jpg`)
+                buff = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${pp_user}&name=${anu_user}&bg=https://i.ibb.co/1s8T3sY/48f7ce63c7aa.jpg&namegb=${encodeURI(mdata.subject)}&member=${memeg}`)
                 buttons = [{buttonId: `#alquran 1`,buttonText:{displayText: 'Bye 👋'},type:1}]
                 imageMsg = (await dha.prepareMessageMedia((buff), 'imageMessage', {thumbnail: buff})).imageMessage
                 buttonsMessage = { contentText: `${out}`, footerText: 'Leave Message', imageMessage: imageMsg, buttons: buttons, headerType: 4 }

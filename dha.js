@@ -1053,13 +1053,13 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *き⃟🕊️ ${prefix}babi*
 *き⃟🕊️ ${prefix}cekganteng*
 *き⃟🕊️ ${prefix}cekcantik*`
-               buttons = [{buttonId: `${prefix}owner`,buttonText:{displayText: '𝙊𝙒𝙉𝙀𝙍'},type:1}]
+               buttons = [{buttonId: `${prefix}owner`,buttonText:{displayText: '</OWNER'},type:1}]
 
                imageMsg = (await dha.prepareMessageMedia(fs.readFileSync(`./media/sherlynn.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/sherlynn.jpg`)})).imageMessage
 
                buttonsMessage = {
                contentText: `${menu}`,
-               footerText: '\`\`\`Simple Bot Whatsapp\`\`\`', imageMessage: imageMsg,
+               footerText: '\`\`\`Simple Bot Whatsapp With Nodejs\`\`\`', imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }

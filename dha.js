@@ -838,19 +838,20 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
         case 'menu':
         case 'help':
-        menu =`
-𝗜𝗡𝗙𝗢 𝗣𝗘𝗡𝗚𝗚𝗨𝗡𝗔 
+        menu =`𝗜𝗡𝗙𝗢 𝗣𝗘𝗡𝗚𝗚𝗨𝗡𝗔
+
 *🔮NAMA : ${pushname}*
 *🔖TAG :* @${sender.split('@')[0]}
 *📄STATUS : ${isOwner ? 'OWNER' : isPremium ? 'Premium' : 'Gratisan'}*
 *📌LIMIT : ${isPremium ? 'Unlimited' : `${gcount}`}*
 
 𝗜𝗡𝗙𝗢 𝗕𝗢𝗧
+
 *📝AKTIF : ${runtime(process.uptime())}*
 *🏮BATERAI : ${baterai}%*
 *🎉PREIFIX : 『${prefix}』*
 
-   ━━━━━ 𝗔𝗟𝗟 𝗠𝗘𝗡𝗨 ━━━━━
+   ━━━━━ 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 ━━━━━
    
 𝖮𝖶𝖭𝖤𝖱 𝖬𝖤𝖭𝖴 
 *き⃟🕊️ ${prefix}bc* _teks_

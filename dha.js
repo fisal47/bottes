@@ -838,15 +838,11 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
         case 'menu':
         case 'help':
-        menu =`𝗜𝗡𝗙𝗢 𝗣𝗘𝗡𝗚𝗚𝗨𝗡𝗔
+        menu =`𝗜𝗡𝗙𝗢 𝗕𝗢𝗧
 
 *🔮NAMA : ${pushname}*
-*🔖TAG :* @${sender.split('@')[0]}
 *📄STATUS : ${isOwner ? 'OWNER' : isPremium ? 'Premium' : 'Gratisan'}*
 *📌LIMIT : ${isPremium ? 'Unlimited' : `${gcount}`}*
-
-𝗜𝗡𝗙𝗢 𝗕𝗢𝗧
-
 *📝AKTIF : ${runtime(process.uptime())}*
 *🏮BATERAI : ${baterai}%*
 *🎉PREIFIX : 『${prefix}』*
@@ -1068,7 +1064,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
                headerType: 4
 }
 
-               prep = await dha.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftoko})
+               prep = await dha.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek})
               dha.relayWAMessage(prep)
                 break
         case 'command':

@@ -843,7 +843,6 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *🔮NAMA : ${pushname}*
 *📄STATUS : ${isOwner ? 'OWNER' : isPremium ? 'Premium' : 'Gratisan'}*
 *📌LIMIT : ${isPremium ? 'Unlimited' : `${gcount}`}*
-*📝AKTIF : ${runtime(process.uptime())}*
 *🏮BATERAI : ${baterai}%*
 *🎉PREIFIX : 『${prefix}』*
 
@@ -1059,7 +1058,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
                buttonsMessage = {
                contentText: `${menu}`,
-               footerText: '\`\`\`Simple Bot Whatsapp With Nodejs\`\`\`', imageMessage: imageMsg,
+               footerText: '\`\`\`Runtime: ${runtime(process.uptime())}\`\`\`', imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }

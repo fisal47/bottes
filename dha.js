@@ -1058,7 +1058,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
                buttonsMessage = {
                contentText: `${menu}`,
-               footerText: '\`\`\`Runtime: ${runtime(process.uptime())}\`\`\`', imageMessage: imageMsg,
+               footerText: '\`\`\`Runtime: ${runtime(process.uptime())} \`\`\`', imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }

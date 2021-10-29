@@ -838,7 +838,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
         case 'menu':
         case 'help':
-        menu =`𝗜𝗡𝗙𝗢 𝗕𝗢𝗧
+        menu =`𝗨𝗦𝗘𝗥 𝗜𝗡𝗙𝗢
 *🔮NAMA : ${pushname}*
 *📄STATUS : ${isOwner ? 'OWNER' : isPremium ? 'Premium' : 'Gratisan'}*
 *📌LIMIT : ${isPremium ? 'Unlimited' : `${gcount}`}*
@@ -1053,7 +1053,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *き⃟🕊️ ${prefix}cekcantik*`
                buttons = [{buttonId: `${prefix}owner`,buttonText:{displayText: '</OWNER'},type:1}]
 
-               imageMsg = (await dha.prepareMessageMedia(fs.readFileSync(`./media/sherlynn.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/sherlynn.jpg`)})).imageMessage
+               imageMsg = (await dha.prepareMessageMedia(fs.readFileSync(`./media/denz.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/sherlynn.jpg`)})).imageMessage
 
                buttonsMessage = {
                contentText: `𝐒𝐈𝐌𝐏𝐋𝐄 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏-𝐁𝐎𝐓`,

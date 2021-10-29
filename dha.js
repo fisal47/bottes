@@ -1057,8 +1057,8 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
                imageMsg = (await dha.prepareMessageMedia(fs.readFileSync(`./media/sherlynn.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/sherlynn.jpg`)})).imageMessage
 
                buttonsMessage = {
-               contentText: `${menu}`,
-               footerText: '\`\`\`Runtime: ${runtime(process.uptime())} \`\`\`', imageMessage: imageMsg,
+               contentText: `Hi kak`,
+               footerText: `${menu}`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }

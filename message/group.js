@@ -28,7 +28,7 @@ module.exports = welcome = async (dha, anu) => {
                 pp_grup = 'https://i.postimg.cc/SN54m6LW/SAVE-20210728-133334.jpg'
             }
             if (anu.action == 'add' && mem.includes(dha.user.jid)) {
-            dha.sendMessage(anu.jid, 'Halo! Terima Kasih sudah Mengundangku, Jika ingin Menggunakan Bot Ketik ${prefix}menu', 'conversation')
+            dha.sendMessage(anu.jid, 'done', 'conversation')
             }
              if (anu.action == 'add' && !mem.includes(dha.user.jid)) {
              if (!welkom.includes(anu.jid)) return

@@ -967,7 +967,6 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *き⃟🕊️ ${prefix}asupan*
 
 𝖯𝖤𝖭𝖣𝖨𝖣𝖨𝖪𝖠𝖭 𝖬𝖤𝖭𝖴 
-*き⃟🕊️ ${prefix}nulis* _teks_
 *き⃟🕊️ ${prefix}nuliskiri* _teks_
 *き⃟🕊️ ${prefix}nuliskanan* _teks_
 *き⃟🕊️ ${prefix}foliokiri* _teks_
@@ -1050,7 +1049,9 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *き⃟🕊️ ${prefix}beban*
 *き⃟🕊️ ${prefix}babi*
 *き⃟🕊️ ${prefix}cekganteng*
-*き⃟🕊️ ${prefix}cekcantik*`
+*き⃟🕊️ ${prefix}cekcantik*
+
+Active: ${runtime(process.uptime())}`
                buttons = [{buttonId: `${prefix}owner`,buttonText:{displayText: '</OWNER'},type:1}]
 
                imageMsg = (await dha.prepareMessageMedia(fs.readFileSync(`./media/denz.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/sherlynn.jpg`)})).imageMessage
@@ -1065,7 +1066,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
                prep = await dha.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek})
               dha.relayWAMessage(prep)
                 break
-        case 'command':
+        case 'command8':
                list = []
                listmenu = [`groupmenu`,`wibumenu`,`stickermenu`,`islammenu`,`sertimenu`,`ceritamenu`,`makermenu`,`dewasamenu`,`ownermenu`,`gamemenu`,`funmenu`,`downloadmenu`,`infomenu`,`othermenu`,`toolsmenu`]
                listmenuu = [`Menu Group`,`Wibu Menu`,`Sticker Menu`,`Islam Menu`,`Serti Menu`,`Cerita Menu`,`Maker Menu`,`Dewasa Menu`,`Owner Menu`,`Game Menu`,`Fun Menu`,`Downloader`,`Info Menu`,`MenuLainnya`,`Tools Menu`]
@@ -1085,7 +1086,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
            }
                listmsg(from, `${ucapanWaktu}`,  `Hai kak......\n*${pushname}*\nPilih Disini`, list)
                break
-       case 'store':
+       case 'store7':
                list = []
                listmenu = [`buttonstik`,`buttondl`,`buttonown`,`buttonpen`,`buttongame`,`buttongc`,`buttonwibu`]
                listmenuu = [`STICKER MENU`,`DOWNLOAD MENU`,`OWNER MENU`,`NULIS MENU`,`GAME MENU`,`GRUP MENU`,`WIBU MENU`]
@@ -2693,8 +2694,8 @@ dha.sendMessage(from, loli, image, {quoted: mek})
 break
 case 'meme':
 reply(mess.wait)
-loli = await fetchJson(`https://hardianto.xyz/api/random/meme?apikey=hardianto`)
-dha.sendMessage(from, await getBuffer(loli.result.url), image, {quoted: mek})
+sal = await fetchJson(`https://hardianto.xyz/api/random/meme?apikey=hardianto`)
+dha.sendMessage(from, await getBuffer(sal.result.url), image, {quoted: mek})
 break
 case 'quotesbucin':
 reply(mess.wait)

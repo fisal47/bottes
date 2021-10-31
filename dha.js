@@ -538,8 +538,8 @@ module.exports = dha = async (dha, mek) => {
       // Anti link
         if (isGroup && isAntiLink && !isOwner && !isGroupAdmins && isBotGroupAdmins){
             if (budy.match(/(https:\/\/chat.whatsapp.com)/gi)) {
-                reply(`*「 GROUP LINK DETECTOR 」*\n\nSepertinya kamu mengirimkan link grup, maaf kamu akan di kick`)
                 dha.groupRemove(from, [sender])
+                reply(`*「 GROUP LINK DETECTOR 」*\n\nSepertinya kamu mengirimkan link grup, maaf kamu akan di kick`)
             }
         }
         
@@ -1631,7 +1631,7 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
        case 'belipremium':
        case 'buypremium':
        case 'sewabot':
-              gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
+              gopeynya = 'https://telegra.ph/file/04fc14ea061da1de1b39d.jpg'
               teksnya = `*── 「 PRICE LIST 」 ──*
 
 *SEWA BOT WA*

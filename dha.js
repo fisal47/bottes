@@ -959,6 +959,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
 𝖳𝖮𝖮𝖫𝖲 𝖬𝖤𝖭𝖴 
 *き⃟🕊️ ${prefix}toimg*
+*き⃟🕊️ ${prefix}imgtourl*
 *き⃟🕊️ ${prefix}tovideo*
 *き⃟🕊️ ${prefix}tomp3*
 
@@ -1052,7 +1053,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *き⃟🕊️ ${prefix}cekcantik*
 
 Active: ${runtime(process.uptime())}`
-               buttons = [{buttonId: `${prefix}owner`,buttonText:{displayText: '</OWNER'},type:1}]
+               buttons = [{buttonId: `${prefix}owner`,buttonText:{displayText: '</OWNER'},type:1},{buttonId: `${prefix}sewabot`,buttonText:{displayText: '</SEWA'},type:1}]
 
                imageMsg = (await dha.prepareMessageMedia(fs.readFileSync(`./media/denz.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/sherlynn.jpg`)})).imageMessage
 
@@ -1651,7 +1652,7 @@ teksnya = ` *「PAYMENT」*
         dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
  
-case 'buttonstik':
+case 'buttonstik1':
               gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
               teksnya = `*「MENU STICKER」*
 *き⃟🕊️ ${prefix}attp* _teks_
@@ -1668,7 +1669,7 @@ case 'buttonstik':
 *き⃟🕊️ ${prefix}take* _pack|author_`
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
- case 'buttondl':
+ case 'buttondl1':
               gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
               teksnya = `*「DOWNLOAD MENU」*
 *き⃟🕊️ ${prefix}fbdl*
@@ -1687,13 +1688,13 @@ case 'buttonstik':
 *き⃟🕊️ ${prefix}nhentaipdf* _code_`
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
-case 'buttonpen':
+case 'buttonpen1':
               gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
               teksnya = `*「NULIS MENU」*
 *き⃟🕊️ ${prefix}nulis*`
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
-case 'buttongame':
+case 'buttongame1':
               gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
               teksnya = `*「GAME MENU」*
 き⃟🕊️ ${prefix}limitgame*
@@ -1719,7 +1720,7 @@ case 'buttongame':
 *き⃟🕊️ ${prefix}suit* _batu/kertas/gunting_`
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
-case 'buttongc':
+case 'buttongc1':
               gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
               teksnya = `*「GRUP MENU」*
 *き⃟🕊️ ${prefix}groupsetting*
@@ -1748,7 +1749,7 @@ case 'buttongc':
 *き⃟🕊️ ${prefix}getdeskgc*`
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftoko, caption: teksnya })
               break
-case 'buttonwibu':
+case 'buttonwibu1':
               gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
               teksnya = `*「WIBU MENU」*
 *き⃟🕊️ ${prefix}loli*
@@ -1777,7 +1778,7 @@ case 'buttonwibu':
 *き⃟🕊️ ${prefix}nekopoisearch*`
               dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: ftext, caption: teksnya })
               break
-case 'buttonown':
+case 'buttonown1':
               gopeynya = 'https://telegra.ph/file/5300c74e3b843b9c0d29d.jpg'
               teksnya = `*「OWNER MENU」*
 *き⃟🕊️ ${prefix}bc* _teks_
@@ -1906,7 +1907,6 @@ case 'buttonown':
 }
              break
       case 'ytmp3':
-            if (!isPremium) return reply(mess.only.premium)
             if (args.length < 1) return reply('Link Nya Mana?')
             if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
             teks = args.join(' ')
@@ -2016,7 +2016,6 @@ _Silahkan tunggu file media sedang dikirim mungkin butuh beberapa menit_`
 })
                break
         case 'mediafire':
-               if (!isPremium) return reply(mess.only.premium)
                if (args.length < 1) return reply('Link Nya Mana? ')
                if(!isUrl(args[0]) && !args[0].includes('mediafire')) return reply(mess.error.Iv)
                reply(mess.wait)

@@ -844,9 +844,9 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *📌LIMIT : ${isPremium ? 'Unlimited' : `${gcount}`}*
 *🏮BATERAI : ${baterai}%*
 *🎉PREIFIX : 『${prefix}』*
-*🪀GROUP CHAT : dha.chats.array.filter(v => v.jid.endsWith('g.us'))*
-*📩PRIVATE CHAT : privat = dha.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))*
-*📨TOTAL CHAT : totalChat = await dha.chats.all()*
+*🪀GROUP CHAT : ${groups.length}*
+*📩PRIVATE CHAT : ${privat.length}*
+*📨TOTAL CHAT : ${totalChat.length}*
 
    ━━━━━ 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 ━━━━━
    

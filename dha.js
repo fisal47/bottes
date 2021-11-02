@@ -839,12 +839,14 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
         case 'menu':
         case 'help':
-        menu =`𝗨𝗦𝗘𝗥 𝗜𝗡𝗙𝗢
-*🔮NAMA : ${pushname}*
+        menu =*🔮NAMA : ${pushname}*
 *📄STATUS : ${isOwner ? 'OWNER' : isPremium ? 'Premium' : 'Gratisan'}*
 *📌LIMIT : ${isPremium ? 'Unlimited' : `${gcount}`}*
 *🏮BATERAI : ${baterai}%*
 *🎉PREIFIX : 『${prefix}』*
+*🪀GROUP CHAT : dha.chats.array.filter(v => v.jid.endsWith('g.us'))*
+*📩PRIVATE CHAT : privat = dha.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))*
+*📨TOTAL CHAT : totalChat = await dha.chats.all()*
 
    ━━━━━ 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 ━━━━━
    

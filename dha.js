@@ -1054,19 +1054,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *き⃟🕊️ ${prefix}cekcantik*
 
 Active: ${runtime(process.uptime())}`
-               buttons = [{buttonId: `${prefix}owner`,buttonText:{displayText: '</OWNER'},type:1},{buttonId: `${prefix}sewabot`,buttonText:{displayText: '</SEWA'},type:1}]
-
-               imageMsg = (await dha.prepareMessageMedia(fs.readFileSync(`./media/denz.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/sherlynn.jpg`)})).imageMessage
-
-               buttonsMessage = {
-               contentText: `𝐒𝐈𝐌𝐏𝐋𝐄 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏-𝐁𝐎𝐓`,
-               footerText: `${menu}`, imageMessage: imageMsg,
-               buttons: buttons,
-               headerType: 4
-}
-
-               prep = await dha.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek})
-              dha.relayWAMessage(prep)
+               dha.sendMessage(from, { contentText: `𝐒𝐈𝐌𝐏𝐋𝐄 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏-𝐁𝐎𝐓`, footerText: `${menu}`, buttons: [{buttonId: `${prefix}owner`,buttonText:{displayText: '</OWNER'},type:1},{buttonId: `${prefix}sewabot`,buttonText:{displayText: '</SEWA'},type:1}], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ikyads, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
                 break
         case 'command8':
                list = []

@@ -839,8 +839,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
         case 'menu':
         case 'help':
-        menu =
-*🔮NAMA : ${pushname}*
+        menu =`*🔮NAMA : ${pushname}*
 *📄STATUS : ${isOwner ? 'OWNER' : isPremium ? 'Premium' : 'Gratisan'}*
 *📌LIMIT : ${isPremium ? 'Unlimited' : `${gcount}`}*
 *🏮BATERAI : ${baterai}%*

@@ -844,7 +844,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *📌LIMIT : ${isPremium ? 'Unlimited' : `${gcount}`}*
 *🏮BATERAI : ${baterai}%*
 *🎉PREIFIX : 『${prefix}』*
-*🪀GROUP CHAT : ${groups.length}*
+*🪀PLATFORM : ${os.platform()}
 *📩PRIVATE CHAT : ${privat.length}*
 *📨TOTAL CHAT : ${totalChat.length}*
 

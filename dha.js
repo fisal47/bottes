@@ -1059,7 +1059,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *き⃟🕊️ ${prefix}cekcantik*
 
 Active: ${runtime(process.uptime())}`
-               dha.sendMessage(from, { contentText: `𝐒𝐈𝐌𝐏𝐋𝐄 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏-𝐁𝐎𝐓`, footerText: `${menu}`, buttons: [{buttonId: `${prefix}owner`,buttonText:{displayText: '</OWNER'},type:1},{buttonId: `${prefix}sewabot`,buttonText:{displayText: '</SEWA'},type:1}], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ikyads, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+               dha.sendMessage(from, { contentText: `𝐒𝐈𝐌𝐏𝐋𝐄 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏-𝐁𝐎𝐓`, footerText: `${menu}`, buttons: [{buttonId: `${prefix}owner`,buttonText:{displayText: '</OWNER'},type:1},{buttonId: `${prefix}sewabot`,buttonText:{displayText: '</SEWA'},type:1},{buttonId: `${prefix}botstat`,buttonText:{displayText: '</INFO'},type:1}], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ikyads, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
                 break
         case 'command8':
                list = []

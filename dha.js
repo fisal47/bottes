@@ -89,6 +89,7 @@ ban =[]
 let register = JSON.parse(fs.readFileSync('./database/user/register.json'))
 let ikyads = (fs.readFileSync('./media/canss.jpg'))
 let fisal = (fs.readFileSync('./media/denz.jpg'))
+let gopay = (fs.readFileSync('./media/IMG-20211103-WA0190.jpg'))
 let welkom = JSON.parse(fs.readFileSync('./database/group/welcome.json'))
 let _premium = JSON.parse(fs.readFileSync('./database/user/premium.json'));
 let _afk = JSON.parse(fs.readFileSync('./database/user/afk.json'));

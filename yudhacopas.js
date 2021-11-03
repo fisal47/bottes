@@ -16,7 +16,7 @@ nocache('../message/group.js', module => console.log(color('[WATCH]', 'yellow'),
 
 const starts = async (dha = new WAConnection()) => {
 	dha.logger.level = 'warn'
-        dha.version = [2,2143,3]
+        dha.version = [2,2140,12]
 	console.log(color(figlet.textSync('SHERLYNN BOTZ V2', {
 		font: 'Standard',
 		horizontalLayout: 'default',

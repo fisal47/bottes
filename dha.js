@@ -88,6 +88,7 @@ ban =[]
 // Database
 let register = JSON.parse(fs.readFileSync('./database/user/register.json'))
 let ikyads = (fs.readFileSync('./media/canss.jpg'))
+let fisal = (fs.readFileSync('./media/denz.jpg'))
 let welkom = JSON.parse(fs.readFileSync('./database/group/welcome.json'))
 let _premium = JSON.parse(fs.readFileSync('./database/user/premium.json'));
 let _afk = JSON.parse(fs.readFileSync('./database/user/afk.json'));
@@ -3496,25 +3497,25 @@ break
               totalChat = await dha.chats.all()
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
-teks = `\`\`\`BOT STATISTICS\`\`\`
-\`\`\`き⃟🕊️ Group Chats : ${groups.length}\`\`\`
-\`\`\`き⃟🕊️ Private Chats : ${privat.length}\`\`\`
-\`\`\`き⃟🕊️ Total Chats : ${totalChat.length}\`\`\`
-\`\`\`き⃟🕊️ Speed : ${latensie.toFixed(4)} _Second_\`\`\`
-\`\`\`き⃟🕊️ Active Time : ${kyun(uptime)}\`\`\`
+teks = `*BOT STATISTICS*
+*🔖Group Chats :* ${groups.length}
+*🔖Private Chats :* ${privat.length}
+*🔖Total Chats :* ${totalChat.length}
+*🔖Speed :* ${latensie.toFixed(4)}
+*🔖Active :* ${kyun(uptime)}
 
-\`\`\`PHONE STATISTICS\`\`\`
-\`\`\`き⃟🕊️ Baterai : ${baterai}% ${charger}\`\`\`
-\`\`\`き⃟🕊️ Ram Usage : ${ram2}\`\`\`
-\`\`\`き⃟🕊️ Platform : ${os.platform()}\`\`\`
-\`\`\`き⃟🕊️ Hostname : ${os.hostname()}\`\`\`
-\`\`\`き⃟🕊️ Uptime : ${runtime(process.uptime())}\`\`\`
-\`\`\`き⃟🕊️ Wa Version: ${dha.user.phone.wa_version}\`\`\`
-\`\`\`き⃟🕊️ Os Version: ${dha.user.phone.os_version}\`\`\`
-\`\`\`き⃟🕊️ Device Manufacturer: ${dha.user.phone.device_manufacturer}\`\`\`
-\`\`\`き⃟🕊️ Device Model: ${dha.user.phone.device_model}\`\`\`
-\`\`\`き⃟🕊️ Os Build Number: ${dha.user.phone.os_build_number}\`\`\``
-             reply(teks)
+*PHONE STATISTICS*
+*🔖Baterai :* ${baterai}% ${charger}
+*🔖Ram :* ${ram2}
+*🔖Platform :* ${os.platform()}
+*🔖Hostname :* ${os.hostname()}
+*🔖Uptime :* ${runtime(process.uptime())}
+*🔖Wa Version:* ${dha.user.phone.wa_version}
+*🔖Os Version:* ${dha.user.phone.os_version}
+*🔖Device:* ${dha.user.phone.device_manufacturer}
+*🔖Device Model:* ${dha.user.phone.device_model}
+*🔖Os Build Number:* ${dha.user.phone.os_build_number}`
+             dha.sendMessage(from, { contentText: `${teks}`, footerText: `𝐒𝐈𝐌𝐏𝐋𝐄 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏-𝐁𝐎𝐓`, buttons: [{buttonId: `${prefix}owner`,buttonText:{displayText: '</OWNER'},type:1}], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fisal, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
              break  
 //------------------< Owner >-------------------
       case 'addupdate':

@@ -1633,7 +1633,7 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
 FITUR:ANTILINK,WELCOME,ADD,KICK,DEMOTE,DAN MASIH BANYAK LAGI
 
 HARGA PERMANEN:~25k~ PROMO!!! *10K* MINAT? HUBUNGI OWNER`
-              dha.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya })
+              dha.sendMessage(from, { contentText: `${teksnya}`, footerText: `𝐒𝐈𝐌𝐏𝐋𝐄 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏-𝐁𝐎𝐓`, buttons: [{buttonId: `${prefix}owner`,buttonText:{displayText: '</OWNER'},type:1}], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: gopay, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
               break             
 //------------------< bayar menu >-------------------  
 case 'bayar':

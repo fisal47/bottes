@@ -849,9 +849,6 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *🏮BATERAI : ${baterai}%*
 *🎉PREIFIX : 『${prefix}』*
 *🪀PLATFORM : ${os.platform()}*
-*📩PRIVATE CHAT : ${privat.length}*
-*📨TOTAL CHAT : ${totalChat.length}*
-*📈SPEED : ${latensie.toFixed(4)}*
 
    ━━━━━ 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 ━━━━━
    

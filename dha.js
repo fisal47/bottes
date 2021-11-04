@@ -853,7 +853,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
    ━━━━━ 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 ━━━━━
    
-𝖮𝖶𝖭𝖤𝖱 𝖬𝖤𝖭𝖴 
+𝐎𝐖𝐍𝐄𝐑 𝐌𝐄𝐍𝐔
 *き⃟🕊️ ${prefix}bc* _teks_
 *き⃟🕊️ ${prefix}tobc* _audio_
 *き⃟🕊️ ${prefix}term*
@@ -875,7 +875,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *き⃟🕊️ ${prefix}sharelock*
 *き⃟🕊️ ${prefix}chat* _nomor|teks_
 
-𝖨𝖭𝖥𝖮 𝖬𝖤𝖭𝖴
+𝐈𝐍𝐅𝐎 𝐌𝐄𝐍𝐔
 *き⃟🕊️ ${prefix}update*
 *き⃟🕊️ ${prefix}iklan*
 *き⃟🕊️ ${prefix}level*
@@ -894,7 +894,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *き⃟🕊️ ${prefix}listpremium*
 *き⃟🕊️ ${prefix}bugreport* [ keluhan ]
 
-𝖦𝖱𝖴𝖯 𝖬𝖤𝖭𝖴
+𝐆𝐑𝐔𝐏 𝐌𝐄𝐍𝐔
 *き⃟🕊️ ${prefix}groupsetting*
 *き⃟🕊️ ${prefix}getbio* _reply_
 *き⃟🕊️ ${prefix}afk* _alasan_
@@ -922,7 +922,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *き⃟🕊️ ${prefix}linkgc*
 *き⃟🕊️ ${prefix}getdeskgc*
 
-𝖦𝖠𝖬𝖤 𝖬𝖤𝖭𝖴 
+𝐆𝐀𝐌𝐄 𝐌𝐄𝐍𝐔
 *き⃟🕊️ ${prefix}limitgame*
 *き⃟🕊️ ${prefix}slot*
 *き⃟🕊️ ${prefix}gelud* _@tag_
@@ -931,7 +931,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *き⃟🕊️ ${prefix}tebakgambar*
 *き⃟🕊️ ${prefix}suit* _batu/kertas/gunting_
 
-𝖣𝖮𝖶𝖭𝖫𝖮𝖠𝖣 𝖬𝖤𝖭𝖴 
+𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐌𝐄𝐍𝐔
 *き⃟🕊️ ${prefix}fbdl*
 *き⃟🕊️ ${prefix}ig*
 *き⃟🕊️ ${prefix}igdl2*
@@ -947,7 +947,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *き⃟🕊️ ${prefix}mediafire*
 *き⃟🕊️ ${prefix}nhentaipdf* _code_
 
-𝖬𝖠𝖪𝖤𝖱 𝖬𝖤𝖭𝖴 
+𝐌𝐀𝐊𝐄𝐑 𝐌𝐄𝐍𝐔
 *き⃟🕊️ ${prefix}tahta* _teks_
 *き⃟🕊️ ${prefix}cup* _teks_
 *き⃟🕊️ ${prefix}cup1* _teks_
@@ -956,37 +956,37 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *き⃟🕊️ ${prefix}blackpink* _teks_
 *き⃟🕊️ ${prefix}natural* _teks_
 
-𝖲𝖳𝖨𝖪𝖤𝖱 𝖬𝖤𝖭𝖴 
+𝐒𝐓𝐈𝐊𝐄𝐑 𝐌𝐄𝐍𝐔
 *き⃟🕊️ ${prefix}attp* _teks_
 *き⃟🕊️ ${prefix}ttp* _teks_
 *き⃟🕊️ ${prefix}sticker* _reply foto/video_
 *き⃟🕊️ ${prefix}swm* _pack|author_
 *き⃟🕊️ ${prefix}take* _pack|author_
 
-𝖳𝖮𝖮𝖫𝖲 𝖬𝖤𝖭𝖴 
+𝐓𝐎𝐎𝐋𝐒 𝐌𝐄𝐍𝐔
 *き⃟🕊️ ${prefix}toimg*
 *き⃟🕊️ ${prefix}imgtourl*
 *き⃟🕊️ ${prefix}tovideo*
 *き⃟🕊️ ${prefix}tomp3*
 
-𝖣𝖤𝖶𝖠𝖲𝖠 𝖬𝖤𝖭𝖴 
+𝐀𝐒𝐔𝐏𝐀𝐍 𝐌𝐄𝐍𝐔
 *き⃟🕊️ ${prefix}asupan2*
 *き⃟🕊️ ${prefix}asupan*
 
-𝖯𝖤𝖭𝖣𝖨𝖣𝖨𝖪𝖠𝖭 𝖬𝖤𝖭𝖴 
+𝐏𝐄𝐍𝐃𝐈𝐃𝐈𝐊𝐀𝐍 𝐌𝐄𝐍𝐔
 *き⃟🕊️ ${prefix}nuliskiri* _teks_
 *き⃟🕊️ ${prefix}nuliskanan* _teks_
 *き⃟🕊️ ${prefix}foliokiri* _teks_
 *き⃟🕊️ ${prefix}foliokanan* _teks_
 *き⃟🕊️ ${prefix}brainly* _teks_
 
-𝖲𝖳𝖠𝖫𝖪𝖨𝖭𝖦 𝖬𝖤𝖭𝖴 
+𝐒𝐓𝐀𝐋𝐊𝐈𝐍𝐆 𝐌𝐄𝐍𝐔
 *き⃟🕊️ ${prefix}igstalk*
 *き⃟🕊️ ${prefix}igstalk*
 *き⃟🕊️ ${prefix}tiktokstalk*
 *き⃟🕊️ ${prefix}githubstalk*
 
-𝖠𝖣𝖣 𝖬𝖤𝖭𝖴 
+𝐀𝐃𝐃 𝐌𝐄𝐍𝐔
 *き⃟🕊️ ${prefix}addvn*
 *き⃟🕊️ ${prefix}listvn*
 *き⃟🕊️ ${prefix}getvn*
@@ -1003,7 +1003,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *き⃟🕊️ ${prefix}listcmd*
 *き⃟🕊️ ${prefix}delcmd*
 
-𝖶𝖨𝖡𝖴 𝖬𝖤𝖭𝖴 
+𝐀𝐍𝐈𝐌𝐄 𝐌𝐄𝐍𝐔
 *き⃟🕊️ ${prefix}loli*
 *き⃟🕊️ ${prefix}anime*
 *き⃟🕊️ ${prefix}lolivideo*
@@ -1016,7 +1016,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *き⃟🕊️ ${prefix}cosplay*
 *き⃟🕊️ ${prefix}megumin*
 
-𝖮𝖳𝖧𝖤𝖱 𝖬𝖤𝖭𝖴 
+𝐎𝐓𝐇𝐄𝐑 𝐌𝐄𝐍𝐔
 *き⃟🕊️ ${prefix}tourl*
 *き⃟🕊️ ${prefix}tinyurl*
 *き⃟🕊️ ${prefix}bilangangka*
@@ -1028,7 +1028,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *き⃟🕊️ ${prefix}quotesmuslim*
 *き⃟🕊️ ${prefix}quoteskanye*
 
-𝖲𝖤𝖠𝖱𝖢𝖧𝖨𝖭𝖦 𝖬𝖤𝖭𝖴
+𝐒𝐄𝐀𝐑𝐂𝐇𝐈𝐍𝐆 𝐌𝐄𝐍𝐔
 *き⃟🕊️ ${prefix}nekopoisearch* _query_
 *き⃟🕊️ ${prefix}ytsearch* _query_
 *き⃟🕊️ ${prefix}shopee* _product_
@@ -1037,7 +1037,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *き⃟🕊️ ${prefix}google* _query_
 *き⃟🕊️ ${prefix}image* _query_
 
-𝖥𝖴𝖭 𝖬𝖤𝖭𝖴 
+𝐅𝐔𝐍 𝐌𝐄𝐍𝐔
 *き⃟🕊️ ${prefix}mining*
 *き⃟🕊️ ${prefix}cekwatak*
 *き⃟🕊️ ${prefix}cekmati* _nama_

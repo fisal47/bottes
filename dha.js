@@ -89,6 +89,7 @@ ban =[]
 let register = JSON.parse(fs.readFileSync('./database/user/register.json'))
 let ikyads = (fs.readFileSync('./media/canss.jpg'))
 let fisal = (fs.readFileSync('./media/denz.jpg'))
+let cute = (fs.readFileSync('.media/girl icons _ Tumblr.jpg'))
 let gopay = (fs.readFileSync('./media/IMG-20211103-WA0190.jpg'))
 let welkom = JSON.parse(fs.readFileSync('./database/group/welcome.json'))
 let _premium = JSON.parse(fs.readFileSync('./database/user/premium.json'));
@@ -1057,7 +1058,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *き⃟🕊️ ${prefix}babi*
 *き⃟🕊️ ${prefix}cekganteng*
 *き⃟🕊️ ${prefix}cekcantik*`
-               dha.sendMessage(from, { contentText: `${menu}`, footerText: `Active: ${runtime(process.uptime())}`, buttons: [{buttonId: `${prefix}owner`,buttonText:{displayText: '</OWNER'},type:1},{buttonId: `${prefix}sewabot`,buttonText:{displayText: '</SEWA'},type:1},{buttonId: `${prefix}botstat`,buttonText:{displayText: '</INFO'},type:1}], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ikyads, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+               dha.sendMessage(from, { contentText: `${menu}`, footerText: `Active: ${runtime(process.uptime())}`, buttons: [{buttonId: `${prefix}owner`,buttonText:{displayText: '</OWNER'},type:1},{buttonId: `${prefix}sewabot`,buttonText:{displayText: '</SEWA'},type:1},{buttonId: `${prefix}botstat`,buttonText:{displayText: '</INFO'},type:1}], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: cute, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
                 break
         case 'command8':
                list = []
@@ -3514,7 +3515,7 @@ teks = `*BOT STATISTICS*
 *🔖Device:* ${dha.user.phone.device_manufacturer}
 *🔖Device Model:* ${dha.user.phone.device_model}
 *🔖Os Build Number:* ${dha.user.phone.os_build_number}`
-             dha.sendMessage(from, { contentText: `${teks}`, footerText: `𝐒𝐈𝐌𝐏𝐋𝐄 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏-𝐁𝐎𝐓`, buttons: [{buttonId: `${prefix}owner`,buttonText:{displayText: '</OWNER'},type:1}], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fisal, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+             dha.sendMessage(from, { contentText: `${teks}`, footerText: `𝐒𝐈𝐌𝐏𝐋𝐄 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏-𝐁𝐎𝐓`, buttons: [{buttonId: `${prefix}owner`,buttonText:{displayText: '</OWNER'},type:1}], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ikyads, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
              break  
 //------------------< Owner >-------------------
       case 'addupdate':

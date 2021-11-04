@@ -90,6 +90,7 @@ let register = JSON.parse(fs.readFileSync('./database/user/register.json'))
 let ikyads = (fs.readFileSync('./media/canss.jpg'))
 let fisal = (fs.readFileSync('./media/denz.jpg'))
 let cute = (fs.readFileSync('./media/cute.jpg'))
+let pink = (fs.readFileSync('./media/pink.jpg'))
 let gopay = (fs.readFileSync('./media/IMG-20211103-WA0190.jpg'))
 let welkom = JSON.parse(fs.readFileSync('./database/group/welcome.json'))
 let _premium = JSON.parse(fs.readFileSync('./database/user/premium.json'));
@@ -1058,7 +1059,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *き⃟🍂 ${prefix}babi*
 *き⃟🍂 ${prefix}cekganteng*
 *き⃟🍂 ${prefix}cekcantik*`
-               dha.sendMessage(from, { contentText: `${menu}`, footerText: `Active: ${runtime(process.uptime())}`, buttons: [{buttonId: `${prefix}owner`,buttonText:{displayText: '</OWNER'},type:1},{buttonId: `${prefix}sewabot`,buttonText:{displayText: '</SEWA'},type:1},{buttonId: `${prefix}botstat`,buttonText:{displayText: '</INFO'},type:1}], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: cute, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+               dha.sendMessage(from, { contentText: `${menu}`, footerText: `Active: ${runtime(process.uptime())}`, buttons: [{buttonId: `${prefix}owner`,buttonText:{displayText: '</OWNER'},type:1},{buttonId: `${prefix}sewabot`,buttonText:{displayText: '</SEWA'},type:1},{buttonId: `${prefix}botstat`,buttonText:{displayText: '</INFO'},type:1}], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: pink, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
                 break
         case 'command8':
                list = []

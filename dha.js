@@ -844,7 +844,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
         case 'help':
         menu =`𝐒𝐈𝐌𝐏𝐋𝐄 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏-𝐁𝐎𝐓
 
-*🔮NAMA : ${pushname}*
+*💌NAMA : ${pushname}*
 *📧TAG : @${sender.split("@")[0]}*
 *📄STATUS : ${isOwner ? 'OWNER' : isPremium ? 'Premium' : 'Gratisan'}*
 *📌LIMIT : ${isPremium ? 'Unlimited' : `${gcount}`}*

@@ -850,8 +850,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *📧TAG : @${sender.split("@")[0]}*
 *📄STATUS : ${isOwner ? 'OWNER' : isPremium ? 'Premium' : 'Free'}*
 *🏮LIMIT : ${isPremium ? 'Unlimited' : `${gcount}`}*
-*🗓️BIO : ${thu.status}*
-*🎉PREIFIX : 『${prefix}』*
+*🗒️BIO : ${thu.status}*
 
    ━━━━━ 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 ━━━━━
    

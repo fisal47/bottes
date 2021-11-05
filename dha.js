@@ -846,11 +846,11 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
         thu = await dha.getStatus(`${sender.split('@')[0]}@s.whatsapp.net`, MessageType.text)
         menu =`𝐒𝐈𝐌𝐏𝐋𝐄 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏-𝐁𝐎𝐓
 
-*🔮NAMA : ${pushname}*
-*🔖TAG : @${sender.split("@")[0]}*
+*💌NAMA : ${pushname}*
+*📧TAG : @${sender.split("@")[0]}*
 *📄STATUS : ${isOwner ? 'OWNER' : isPremium ? 'Premium' : 'Free'}*
 *🏮LIMIT : ${isPremium ? 'Unlimited' : `${gcount}`}*
-*🗓️BIO :* ${thu.status}
+*🗓️BIO : ${thu.status}*
 *🎉PREIFIX : 『${prefix}』*
 
    ━━━━━ 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 ━━━━━

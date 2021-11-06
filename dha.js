@@ -844,7 +844,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
         case 'menu':
         case 'help':
         thu = await dha.getStatus(`${sender.split('@')[0]}@s.whatsapp.net`, MessageType.text)
-        menu =`🌹𝐇𝐄𝐋𝐋𝐎𝐖𝐎𝐑𝐋𝐃🌹
+        menu =`𝐇𝐄𝐋𝐋𝐎𝐖𝐎𝐑𝐋𝐃👋🏻
 
 *💌NAMA : ${pushname}*
 *📧TAG : @${sender.split("@")[0]}*
@@ -852,7 +852,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *🏮LIMIT : ${isPremium ? 'Unlimited' : `${gcount}`}*
 *🗒️BIO : ${thu.status}*
 
-   ━━━━━ 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 ━━━━━
+          🌹𝐂𝐎𝐌𝐌𝐀𝐍𝐃🌹
    
 𝐎𝐖𝐍𝐄𝐑 𝐌𝐄𝐍𝐔
 *き⃟🍂 ${prefix}bc* _teks_

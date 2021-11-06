@@ -843,16 +843,23 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
         case 'menu':
         case 'help':
+        groups = dha.chats.array.filter(v => v.jid.endsWith('g.us'))
+        privat = dha.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
+        totalChat = await dha.chats.all()
+        timestampe = speed();
+        latensie = speed() - timestampe
         thu = await dha.getStatus(`${sender.split('@')[0]}@s.whatsapp.net`, MessageType.text)
         menu =`𝐇𝐄𝐋𝐋𝐎𝐖𝐎𝐑𝐋𝐃👋🏻
+*〶 NAMA : ${pushname}*
+*〶 TAG : @${sender.split("@")[0]}*
+*〶 STATUS : ${isOwner ? 'OWNER' : isPremium ? 'Premium' : 'Free'}*
+*〶 LIMIT : ${isPremium ? 'Unlimited' : `${gcount}`}*
+*〶 BIO : ${thu.status}*
 
-*💌NAMA : ${pushname}*
-*📧TAG : @${sender.split("@")[0]}*
-*📄STATUS : ${isOwner ? 'OWNER' : isPremium ? 'Premium' : 'Free'}*
-*🏮LIMIT : ${isPremium ? 'Unlimited' : `${gcount}`}*
-*🗒️BIO : ${thu.status}*
-
-          🌹𝐂𝐎𝐌𝐌𝐀𝐍𝐃🌹
+*〶 GRUP CHAT : ${groups.length}*
+*〶 PRIVAT CHAT : ${privat.length}*
+*〶 TOTAL CHAT : ${totalChat.length}*
+*〶 SPEED : ${latensie.toFixed(4)}*
    
 𝐎𝐖𝐍𝐄𝐑 𝐌𝐄𝐍𝐔
 *き⃟🍂 ${prefix}bc* _teks_

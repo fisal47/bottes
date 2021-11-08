@@ -862,209 +862,209 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 *〶 SPEED : ${latensie.toFixed(4)}*
    
 𝐎𝐖𝐍𝐄𝐑 𝐌𝐄𝐍𝐔
-*✘⃟🍂 ${prefix}bc* _teks_
-*✘⃟🍂 ${prefix}tobc* _audio_
-*✘⃟🍂 ${prefix}term*
-*✘⃟🍂 ${prefix}eval*
-*✘⃟🍂 ${prefix}clearall*
-*✘⃟🍂 ${prefix}leaveall*
-*✘⃟🍂 ${prefix}join* _teks_
-*✘⃟🍂 ${prefix}shutdown*
-*✘⃟🍂 ${prefix}getquoted*
-*✘⃟🍂 ${prefix}addupdate* _fiturnya_
-*✘⃟🍂 ${prefix}exif* _nama|author_
-*✘⃟🍂 ${prefix}sewa add/del* _waktunya_
-*✘⃟🍂 ${prefix}premium add* _@tag|nomor_
-*✘⃟🍂 ${prefix}premium del* _@tag|nomor_
-*✘⃟🍂 ${prefix}setpp*
-*✘⃟🍂 ${prefix}setbio*
-*✘⃟🍂 ${prefix}setname*
-*✘⃟🍂 ${prefix}getpp*
-*✘⃟🍂 ${prefix}sharelock*
-*✘⃟🍂 ${prefix}chat* _nomor|teks_
+*✘⃟🍁 ${prefix}bc* _teks_
+*✘⃟🍁 ${prefix}tobc* _audio_
+*✘⃟🍁 ${prefix}term*
+*✘⃟🍁 ${prefix}eval*
+*✘⃟🍁 ${prefix}clearall*
+*✘⃟🍁 ${prefix}leaveall*
+*✘⃟🍁 ${prefix}join* _teks_
+*✘⃟🍁 ${prefix}shutdown*
+*✘⃟🍁 ${prefix}getquoted*
+*✘⃟🍁 ${prefix}addupdate* _fiturnya_
+*✘⃟🍁 ${prefix}exif* _nama|author_
+*✘⃟🍁 ${prefix}sewa add/del* _waktunya_
+*✘⃟🍁 ${prefix}premium add* _@tag|nomor_
+*✘⃟🍁 ${prefix}premium del* _@tag|nomor_
+*✘⃟🍁 ${prefix}setpp*
+*✘⃟🍁 ${prefix}setbio*
+*✘⃟🍁 ${prefix}setname*
+*✘⃟🍁 ${prefix}getpp*
+*✘⃟🍁 ${prefix}sharelock*
+*✘⃟🍁 ${prefix}chat* _nomor|teks_
 
 𝐈𝐍𝐅𝐎 𝐌𝐄𝐍𝐔
-*✘⃟🍂 ${prefix}update*
-*✘⃟🍂 ${prefix}iklan*
-*✘⃟🍂 ${prefix}level*
-*✘⃟🍂 ${prefix}rules*
-*✘⃟🍂 ${prefix}profile*
-*✘⃟🍂 ${prefix}waktu*
-*✘⃟🍂 ${prefix}botstat*
-*✘⃟🍂 ${prefix}sewabot*
-*✘⃟🍂 ${prefix}listsewa*
-*✘⃟🍂 ${prefix}owner*
-*✘⃟🍂 ${prefix}ping*
-*✘⃟🍂 ${prefix}runtime*
-*✘⃟🍂 ${prefix}donasi*
-*✘⃟🍂 ${prefix}leaderboard*
-*✘⃟🍂 ${prefix}cekpremium*
-*✘⃟🍂 ${prefix}listpremium*
-*✘⃟🍂 ${prefix}bugreport* [ keluhan ]
+*✘⃟🍁 ${prefix}update*
+*✘⃟🍁 ${prefix}iklan*
+*✘⃟🍁 ${prefix}level*
+*✘⃟🍁 ${prefix}rules*
+*✘⃟🍁 ${prefix}profile*
+*✘⃟🍁 ${prefix}waktu*
+*✘⃟🍁 ${prefix}botstat*
+*✘⃟🍁 ${prefix}sewabot*
+*✘⃟🍁 ${prefix}listsewa*
+*✘⃟🍁 ${prefix}owner*
+*✘⃟🍁 ${prefix}ping*
+*✘⃟🍁 ${prefix}runtime*
+*✘⃟🍁 ${prefix}donasi*
+*✘⃟🍁 ${prefix}leaderboard*
+*✘⃟🍁 ${prefix}cekpremium*
+*✘⃟🍁 ${prefix}listpremium*
+*✘⃟🍁 ${prefix}bugreport* [ keluhan ]
 
 𝐆𝐑𝐔𝐏 𝐌𝐄𝐍𝐔
-*✘⃟🍂 ${prefix}groupsetting*
-*✘⃟🍂 ${prefix}getbio* _reply_
-*✘⃟🍂 ${prefix}afk* _alasan_
-*✘⃟🍂 ${prefix}kontak* _nomor|nama_
-*✘⃟🍂 ${prefix}ceksewa*
-*✘⃟🍂 ${prefix}welcome* _enable/disable_
-*✘⃟🍂 ${prefix}antilink* _enable/disable_
-*✘⃟🍂 ${prefix}kickall*
-*✘⃟🍂 ${prefix}infogrup*
-*✘⃟🍂 ${prefix}promote*
-*✘⃟🍂 ${prefix}promoteall*
-*✘⃟🍂 ${prefix}demote*
-*✘⃟🍂 ${prefix}demoteall*
-*✘⃟🍂 ${prefix}listonline*
-*✘⃟🍂 ${prefix}tagall* _teks_
-*✘⃟🍂 ${prefix}leave*
-*✘⃟🍂 ${prefix}kick* _reply_
-*✘⃟🍂 ${prefix}add* _628xxx_
-*✘⃟🍂 ${prefix}setgrupname*
-*✘⃟🍂 ${prefix}setppgrup*
-*✘⃟🍂 ${prefix}getpp*
-*✘⃟🍂 ${prefix}setdesc*
-*✘⃟🍂 ${prefix}sider* _reply chat bot_
-*✘⃟🍂 ${prefix}hidetag* _teks/reply teks_
-*✘⃟🍂 ${prefix}linkgc*
-*✘⃟🍂 ${prefix}getdeskgc*
+*✘⃟🍁 ${prefix}groupsetting*
+*✘⃟🍁 ${prefix}getbio* _reply_
+*✘⃟🍁 ${prefix}afk* _alasan_
+*✘⃟🍁 ${prefix}kontak* _nomor|nama_
+*✘⃟🍁 ${prefix}ceksewa*
+*✘⃟🍁 ${prefix}welcome* _enable/disable_
+*✘⃟🍁 ${prefix}antilink* _enable/disable_
+*✘⃟🍁 ${prefix}kickall*
+*✘⃟🍁 ${prefix}infogrup*
+*✘⃟🍁 ${prefix}promote*
+*✘⃟🍁 ${prefix}promoteall*
+*✘⃟🍁 ${prefix}demote*
+*✘⃟🍁 ${prefix}demoteall*
+*✘⃟🍁 ${prefix}listonline*
+*✘⃟🍁 ${prefix}tagall* _teks_
+*✘⃟🍁 ${prefix}leave*
+*✘⃟🍁 ${prefix}kick* _reply_
+*✘⃟🍁 ${prefix}add* _628xxx_
+*✘⃟🍁 ${prefix}setgrupname*
+*✘⃟🍁 ${prefix}setppgrup*
+*✘⃟🍁 ${prefix}getpp*
+*✘⃟🍁 ${prefix}setdesc*
+*✘⃟🍁 ${prefix}sider* _reply chat bot_
+*✘⃟🍁 ${prefix}hidetag* _teks/reply teks_
+*✘⃟🍁 ${prefix}linkgc*
+*✘⃟🍁 ${prefix}getdeskgc*
 
 𝐆𝐀𝐌𝐄 𝐌𝐄𝐍𝐔
-*✘⃟🍂 ${prefix}limitgame*
-*✘⃟🍂 ${prefix}slot*
-*✘⃟🍂 ${prefix}gelud* _@tag_
-*✘⃟🍂 ${prefix}tictactoe* _@tag_
-*✘⃟🍂 ${prefix}tebaktebakan*
-*✘⃟🍂 ${prefix}tebakgambar*
-*✘⃟🍂 ${prefix}suit* _batu/kertas/gunting_
+*✘⃟🍁 ${prefix}limitgame*
+*✘⃟🍁 ${prefix}slot*
+*✘⃟🍁 ${prefix}gelud* _@tag_
+*✘⃟🍁 ${prefix}tictactoe* _@tag_
+*✘⃟🍁 ${prefix}tebaktebakan*
+*✘⃟🍁 ${prefix}tebakgambar*
+*✘⃟🍁 ${prefix}suit* _batu/kertas/gunting_
 
 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐌𝐄𝐍𝐔
-*✘⃟🍂 ${prefix}fbdl*
-*✘⃟🍂 ${prefix}ig*
-*✘⃟🍂 ${prefix}igdl2*
-*✘⃟🍂 ${prefix}twitter*
-*✘⃟🍂 ${prefix}tiktok*
-*✘⃟🍂 ${prefix}play*
-*✘⃟🍂 ${prefix}ythd*
-*✘⃟🍂 ${prefix}ytmp3*
-*✘⃟🍂 ${prefix}ytmp4*
-*✘⃟🍂 ${prefix}soundcloud*
-*✘⃟🍂 ${prefix}tiktoknowm*
-*✘⃟🍂 ${prefix}tiktokaudio*
-*✘⃟🍂 ${prefix}mediafire*
-*✘⃟🍂 ${prefix}nhentaipdf* _code_
+*✘⃟🍁 ${prefix}fbdl*
+*✘⃟🍁 ${prefix}ig*
+*✘⃟🍁 ${prefix}igdl2*
+*✘⃟🍁 ${prefix}twitter*
+*✘⃟🍁 ${prefix}tiktok*
+*✘⃟🍁 ${prefix}play*
+*✘⃟🍁 ${prefix}ythd*
+*✘⃟🍁 ${prefix}ytmp3*
+*✘⃟🍁 ${prefix}ytmp4*
+*✘⃟🍁 ${prefix}soundcloud*
+*✘⃟🍁 ${prefix}tiktoknowm*
+*✘⃟🍁 ${prefix}tiktokaudio*
+*✘⃟🍁 ${prefix}mediafire*
+*✘⃟🍁 ${prefix}nhentaipdf* _code_
 
 𝐌𝐀𝐊𝐄𝐑 𝐌𝐄𝐍𝐔
-*✘⃟🍂 ${prefix}tahta* _teks_
-*✘⃟🍂 ${prefix}cup* _teks_
-*✘⃟🍂 ${prefix}cup1* _teks_
-*✘⃟🍂 ${prefix}coffe* _teks_
-*✘⃟🍂 ${prefix}pornhub* _teks_
-*✘⃟🍂 ${prefix}blackpink* _teks_
-*✘⃟🍂 ${prefix}natural* _teks_
+*✘⃟🍁 ${prefix}tahta* _teks_
+*✘⃟🍁 ${prefix}cup* _teks_
+*✘⃟🍁 ${prefix}cup1* _teks_
+*✘⃟🍁 ${prefix}coffe* _teks_
+*✘⃟🍁 ${prefix}pornhub* _teks_
+*✘⃟🍁 ${prefix}blackpink* _teks_
+*✘⃟🍁 ${prefix}natural* _teks_
 
 𝐒𝐓𝐈𝐊𝐄𝐑 𝐌𝐄𝐍𝐔
-*✘⃟🍂 ${prefix}attp* _teks_
-*✘⃟🍂 ${prefix}ttp* _teks_
-*✘⃟🍂 ${prefix}sticker* _reply foto/video_
-*✘⃟🍂 ${prefix}swm* _pack|author_
-*✘⃟🍂 ${prefix}take* _pack|author_
+*✘⃟🍁 ${prefix}attp* _teks_
+*✘⃟🍁 ${prefix}ttp* _teks_
+*✘⃟🍁 ${prefix}sticker* _reply foto/video_
+*✘⃟🍁 ${prefix}swm* _pack|author_
+*✘⃟🍁 ${prefix}take* _pack|author_
 
 𝐓𝐎𝐎𝐋𝐒 𝐌𝐄𝐍𝐔
-*✘⃟🍂 ${prefix}toimg*
-*✘⃟🍂 ${prefix}imgtourl*
-*✘⃟🍂 ${prefix}tovideo*
-*✘⃟🍂 ${prefix}tomp3*
+*✘⃟🍁 ${prefix}toimg*
+*✘⃟🍁 ${prefix}imgtourl*
+*✘⃟🍁 ${prefix}tovideo*
+*✘⃟🍁 ${prefix}tomp3*
 
 𝐀𝐒𝐔𝐏𝐀𝐍 𝐌𝐄𝐍𝐔
-*✘⃟🍂 ${prefix}asupan2*
-*✘⃟🍂 ${prefix}asupan*
+*✘⃟🍁 ${prefix}asupan2*
+*✘⃟🍁 ${prefix}asupan*
 
 𝐏𝐄𝐍𝐃𝐈𝐃𝐈𝐊𝐀𝐍 𝐌𝐄𝐍𝐔
-*✘⃟🍂 ${prefix}nuliskiri* _teks_
-*✘⃟🍂 ${prefix}nuliskanan* _teks_
-*✘⃟🍂 ${prefix}foliokiri* _teks_
-*✘⃟🍂 ${prefix}foliokanan* _teks_
-*✘⃟🍂 ${prefix}brainly* _teks_
+*✘⃟🍁 ${prefix}nuliskiri* _teks_
+*✘⃟🍁 ${prefix}nuliskanan* _teks_
+*✘⃟🍁 ${prefix}foliokiri* _teks_
+*✘⃟🍁 ${prefix}foliokanan* _teks_
+*✘⃟🍁 ${prefix}brainly* _teks_
 
 𝐒𝐓𝐀𝐋𝐊𝐈𝐍𝐆 𝐌𝐄𝐍𝐔
-*✘⃟🍂 ${prefix}igstalk*
-*✘⃟🍂 ${prefix}igstalk*
-*✘⃟🍂 ${prefix}tiktokstalk*
-*✘⃟🍂 ${prefix}githubstalk*
+*✘⃟🍁 ${prefix}igstalk*
+*✘⃟🍁 ${prefix}igstalk*
+*✘⃟🍁 ${prefix}tiktokstalk*
+*✘⃟🍁 ${prefix}githubstalk*
 
 𝐀𝐃𝐃 𝐌𝐄𝐍𝐔
-*✘⃟🍂 ${prefix}addvn*
-*✘⃟🍂 ${prefix}listvn*
-*✘⃟🍂 ${prefix}getvn*
-*✘⃟🍂 ${prefix}addimg*
-*✘⃟🍂 ${prefix}listimg*
-*✘⃟🍂 ${prefix}getimg*
-*✘⃟🍂 ${prefix}addvid*
-*✘⃟🍂 ${prefix}listvid*
-*✘⃟🍂 ${prefix}getvid*
-*✘⃟🍂 ${prefix}addstik*
-*✘⃟🍂 ${prefix}liststik*
-*✘⃟🍂 ${prefix}getstik*
-*✘⃟🍂 ${prefix}addcmd*
-*✘⃟🍂 ${prefix}listcmd*
-*✘⃟🍂 ${prefix}delcmd*
+*✘⃟🍁 ${prefix}addvn*
+*✘⃟🍁 ${prefix}listvn*
+*✘⃟🍁 ${prefix}getvn*
+*✘⃟🍁 ${prefix}addimg*
+*✘⃟🍁 ${prefix}listimg*
+*✘⃟🍁 ${prefix}getimg*
+*✘⃟🍁 ${prefix}addvid*
+*✘⃟🍁 ${prefix}listvid*
+*✘⃟🍁 ${prefix}getvid*
+*✘⃟🍁 ${prefix}addstik*
+*✘⃟🍁 ${prefix}liststik*
+*✘⃟🍁 ${prefix}getstik*
+*✘⃟🍁 ${prefix}addcmd*
+*✘⃟🍁 ${prefix}listcmd*
+*✘⃟🍁 ${prefix}delcmd*
 
 𝐀𝐍𝐈𝐌𝐄 𝐌𝐄𝐍𝐔
-*✘⃟🍂 ${prefix}loli*
-*✘⃟🍂 ${prefix}anime*
-*✘⃟🍂 ${prefix}lolivideo*
-*✘⃟🍂 ${prefix}husbu*
-*✘⃟🍂 ${prefix}waifu*
-*✘⃟🍂 ${prefix}milf*
-*✘⃟🍂 ${prefix}neko*
-*✘⃟🍂 ${prefix}sagiri*
-*✘⃟🍂 ${prefix}hentai*
-*✘⃟🍂 ${prefix}cosplay*
-*✘⃟🍂 ${prefix}megumin*
+*✘⃟🍁 ${prefix}loli*
+*✘⃟🍁 ${prefix}anime*
+*✘⃟🍁 ${prefix}lolivideo*
+*✘⃟🍁 ${prefix}husbu*
+*✘⃟🍁 ${prefix}waifu*
+*✘⃟🍁 ${prefix}milf*
+*✘⃟🍁 ${prefix}neko*
+*✘⃟🍁 ${prefix}sagiri*
+*✘⃟🍁 ${prefix}hentai*
+*✘⃟🍁 ${prefix}cosplay*
+*✘⃟🍁 ${prefix}megumin*
 
 𝐎𝐓𝐇𝐄𝐑 𝐌𝐄𝐍𝐔
-*✘⃟🍂 ${prefix}tourl*
-*✘⃟🍂 ${prefix}tinyurl*
-*✘⃟🍂 ${prefix}bilangangka*
-*✘⃟🍂 ${prefix}artimimpi*
-*✘⃟🍂 ${prefix}resepmasakan*
-*✘⃟🍂 ${prefix}darkjoke*
-*✘⃟🍂 ${prefix}meme*
-*✘⃟🍂 ${prefix}quotesbucin*
-*✘⃟🍂 ${prefix}quotesmuslim*
-*✘⃟🍂 ${prefix}quoteskanye*
+*✘⃟🍁 ${prefix}tourl*
+*✘⃟🍁 ${prefix}tinyurl*
+*✘⃟🍁 ${prefix}bilangangka*
+*✘⃟🍁 ${prefix}artimimpi*
+*✘⃟🍁 ${prefix}resepmasakan*
+*✘⃟🍁 ${prefix}darkjoke*
+*✘⃟🍁 ${prefix}meme*
+*✘⃟🍁 ${prefix}quotesbucin*
+*✘⃟🍁 ${prefix}quotesmuslim*
+*✘⃟🍁 ${prefix}quoteskanye*
 
 𝐒𝐄𝐀𝐑𝐂𝐇𝐈𝐍𝐆 𝐌𝐄𝐍𝐔
-*✘⃟🍂 ${prefix}nekopoisearch* _query_
-*✘⃟🍂 ${prefix}ytsearch* _query_
-*✘⃟🍂 ${prefix}shopee* _product_
-*✘⃟🍂 ${prefix}playstore* _query_
-*✘⃟🍂 ${prefix}ssweb* _query_
-*✘⃟🍂 ${prefix}google* _query_
-*✘⃟🍂 ${prefix}image* _query_
+*✘⃟🍁 ${prefix}nekopoisearch* _query_
+*✘⃟🍁 ${prefix}ytsearch* _query_
+*✘⃟🍁 ${prefix}shopee* _product_
+*✘⃟🍁 ${prefix}playstore* _query_
+*✘⃟🍁 ${prefix}ssweb* _query_
+*✘⃟🍁 ${prefix}google* _query_
+*✘⃟🍁 ${prefix}image* _query_
 
 𝐅𝐔𝐍 𝐌𝐄𝐍𝐔
-*✘⃟🍂 ${prefix}mining*
-*✘⃟🍂 ${prefix}cekwatak*
-*✘⃟🍂 ${prefix}cekmati* _nama_
-*✘⃟🍂 ${prefix}wangy* _nama_
-*✘⃟🍂 ${prefix}citacita*
-*✘⃟🍂 ${prefix}toxic*
-*✘⃟🍂 ${prefix}truth*
-*✘⃟🍂 ${prefix}dare*
-*✘⃟🍂 ${prefix}apakah*
-*✘⃟🍂 ${prefix}bisakah*
-*✘⃟🍂 ${prefix}kapankah*
-*✘⃟🍂 ${prefix}rate*
-*✘⃟🍂 ${prefix}jadian*
-*✘⃟🍂 ${prefix}cantik*
-*✘⃟🍂 ${prefix}ganteng*
-*✘⃟🍂 ${prefix}beban*
-*✘⃟🍂 ${prefix}babi*
-*✘⃟🍂 ${prefix}cekganteng*
-*✘⃟🍂 ${prefix}cekcantik*`
+*✘⃟🍁 ${prefix}mining*
+*✘⃟🍁 ${prefix}cekwatak*
+*✘⃟🍁 ${prefix}cekmati* _nama_
+*✘⃟🍁 ${prefix}wangy* _nama_
+*✘⃟🍁 ${prefix}citacita*
+*✘⃟🍁 ${prefix}toxic*
+*✘⃟🍁 ${prefix}truth*
+*✘⃟🍁 ${prefix}dare*
+*✘⃟🍁 ${prefix}apakah*
+*✘⃟🍁 ${prefix}bisakah*
+*✘⃟🍁 ${prefix}kapankah*
+*✘⃟🍁 ${prefix}rate*
+*✘⃟🍁 ${prefix}jadian*
+*✘⃟🍁 ${prefix}cantik*
+*✘⃟🍁 ${prefix}ganteng*
+*✘⃟🍁 ${prefix}beban*
+*✘⃟🍁 ${prefix}babi*
+*✘⃟🍁 ${prefix}cekganteng*
+*✘⃟🍁 ${prefix}cekcantik*`
                dha.sendMessage(from, { contentText: `${menu}`, footerText: `Active: ${runtime(process.uptime())}`, buttons: [{buttonId: `${prefix}owner`,buttonText:{displayText: '</OWNER'},type:1},{buttonId: `${prefix}sewabot`,buttonText:{displayText: '</SEWA'},type:1},{buttonId: `${prefix}botstat`,buttonText:{displayText: '</INFO'},type:1}], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: pink, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
                 break
         case 'command8':
